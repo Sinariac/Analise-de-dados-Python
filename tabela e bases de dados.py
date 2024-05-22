@@ -48,7 +48,5 @@ print(tabelaLojas)
 graficoLojas = px.bar(tabelaLojas, x=tabelaLojas.index, y='Faturamento')
 graficoLojas.show()
 
-
-
-
-
+#graficoProdutos = px.bar(tabelaProdutos, x=tabelaProdutos.index, y='Quantidade Vendida')
+#graficoProdutos.show()
